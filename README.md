@@ -4,7 +4,7 @@ Developed an AI-powered corporate insights dashboard to summarize meeting transc
 ## Features
 
 - **Data Analysis**: Load and process corporate data from CSV files
-- **Sentiment Analysis**: Analyze employee feedback using DistilBERT model
+- **Sentiment Analysis**: Analyze employee feedback using the DistilBERT model
 - **Risk Prediction**: Assess departmental risk levels using Decision Tree classification
 - **KPI Trends**: Visualize key performance indicators with forecasting using Linear Regression
 - **Interactive Filters**: Filter data by department, KPIs, and date ranges
@@ -48,7 +48,7 @@ The application uses a synthetic dataset (`data/company_data.csv`) containing:
 5. Download filtered results
 
 ## AI Models Used
-- **Summarization**: Facebook BART-large-CNN (removed in current version)
+- **Summarization**: Facebook BART-large-CNN
 - **Sentiment Analysis**: DistilBERT SST-2
 - **Risk Classification**: Decision Tree Classifier
 - **Trend Forecasting**: Linear Regression
@@ -64,7 +64,6 @@ The application uses a synthetic dataset (`data/company_data.csv`) containing:
 ```
 
 ## Contributing
-
 1. Fork the repository
 2. Create a feature branch
 3. Commit changes
