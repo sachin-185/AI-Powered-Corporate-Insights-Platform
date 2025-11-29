@@ -2,7 +2,6 @@ import pandas as pd
 from transformers import pipeline
 import torch
 import streamlit as st
-
 # Detect GPU
 device = 0 if torch.cuda.is_available() else -1
 print("Using device:", "GPU" if device == 0 else "CPU")
@@ -10,20 +9,6 @@ print("Using device:", "GPU" if device == 0 else "CPU")
 # Load HuggingFace pipelines
 summary_pipe = pipeline("summarization", model="facebook/bart-large-cnn", device=device)
 sentiment_pipe = pipeline("sentiment-analysis", model="distilbert-base-uncased-finetuned-sst-2-english", device=device)
-
-# --- Summarization function ---
-def summarize_text(text):
-    try:
-        # Adjust max/min lengths based on input size
-        input_len = len(text.split())
-        if input_len < 5:  # very short, return as is
-            return text
-        max_len = min(60, input_len + 20)
-        min_len = min(10, max_len)
-        result = summary_pipe(text, max_length=max_len, min_length=min_len, do_sample=False)
-        return result[0]["summary_text"]
-    except:
-        return "Summary unavailable"
 
 # --- Sentiment analysis function ---
 def analyze_sentiment(text):
@@ -51,8 +36,8 @@ def run_smartcorp_ai():
     df = pd.read_csv("data/company_data.csv")
     df["date"] = pd.to_datetime(df["date"])
 
-    # Summarize meetings
-    df["meeting_summary"] = df["meeting_transcript"].apply(summarize_text)
+    # Use transcript as summary
+    df["meeting_summary"] = df["meeting_transcript"]
 
     # Sentiment
     sentiments = df["employee_feedback"].apply(analyze_sentiment)
@@ -66,5 +51,4 @@ def run_smartcorp_ai():
     df = df.sort_values(["department", "date"])
     df["attrition_change"] = df.groupby("department")["attrition_rate"].diff().fillna(0)
     df["engagement_change"] = df.groupby("department")["engagement_score"].diff().fillna(0)
-
     return df
