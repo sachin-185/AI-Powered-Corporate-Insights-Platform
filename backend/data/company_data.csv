@@ -1,0 +1,73 @@
+date,department,meeting_transcript,employee_feedback,attrition_rate,engagement_score,project_delay_index
+2025-07-01,Engineering,"Discussed backend migration plan and deadlines.","Happy with team collaboration.",0.12,0.85,0.05
+2025-07-01,Marketing,"Planned Q3 campaigns and budgets.","Marketing team morale is high.",0.10,0.80,0.10
+2025-07-01,HR,"Reviewed recruitment strategies and diverse goals.","Satisfied with current recruitment process.",0.07,0.91,0.02
+2025-07-01,Sales,"Reviewed quarterly sales performance.","Sales team feeling pressured due to targets.",0.16,0.65,0.22
+2025-07-01,Finance,"Finalized annual audit reports.","Auditing workload has been manageable.",0.06,0.88,0.05
+2025-07-01,Customer Success,"Implemented new CRM tool workflows.","New tools require some training.",0.11,0.78,0.10
+2025-08-01,Engineering,"Reviewed server performance issues and fixes.","Workload has increased lately.",0.14,0.70,0.20
+2025-08-01,Marketing,"Analyzed campaign performance metrics.","Some team members feel overwhelmed.",0.12,0.75,0.12
+2025-08-01,HR,"Discussed employee wellness programs.","Positive feedback on wellness initiatives.",0.08,0.92,0.01
+2025-08-01,Sales,"Sales strategies and pipeline review.","Pressure from sales targets is tough.",0.18,0.60,0.30
+2025-08-01,Finance,"Reviewed quarterly budget allocations.","Satisfied with current financial workflows.",0.05,0.89,0.04
+2025-08-01,Customer Success,"Addressed high customer ticket volume.","Stressed due to queue spikes.",0.15,0.67,0.22
+2025-09-01,Engineering,"Finalized cloud infrastructure upgrade.","Team is excited about new tech.",0.11,0.88,0.07
+2025-09-01,Marketing,"Brainstormed ideas for brand refresh.","Creative energy is high among team.",0.10,0.82,0.08
+2025-09-01,HR,"Set plans for upcoming performance reviews.","Employees appreciate transparent feedback.",0.06,0.94,0.00
+2025-09-01,Sales,"Reviewed customer acquisition strategies.","Team is optimistic about new leads.",0.15,0.69,0.18
+2025-09-01,Finance,"Approved department operational expenses.","Financial operations are smooth.",0.06,0.90,0.03
+2025-09-01,Customer Success,"Conducted client feedback surveys.","Clients are reporting positive experiences.",0.09,0.84,0.07
+2025-10-01,Engineering,"Planned maintenance for critical systems.","Team is confident in upcoming maintenance.",0.10,0.80,0.11
+2025-10-01,Marketing,"Planned end of year advertisements.","Workload is increasing for holiday push.",0.13,0.74,0.15
+2025-10-01,HR,"Prepared training modules for next quarter.","Very happy with career growth path.",0.07,0.90,0.02
+2025-10-01,Sales,"Planned Q4 target milestones.","Extremely stressed about Q4 sales goals.",0.19,0.58,0.28
+2025-10-01,Finance,"Reviewed taxation files and returns.","Feeling overworked with accounting deadlines.",0.11,0.72,0.18
+2025-10-01,Customer Success,"Analyzed response times and metrics.","Struggling to meet ticket resolution SLAs.",0.16,0.66,0.25
+2025-11-01,Engineering,"Fixed critical database locking issues.","DB fixes resolved a lot of headaches.",0.09,0.86,0.06
+2025-11-01,Marketing,"Launched holiday advertising drives.","Excited to see campaigns go live.",0.11,0.83,0.09
+2025-11-01,HR,"Discussed annual benefit revisions.","Favorable view of health coverage enhancements.",0.06,0.93,0.00
+2025-11-01,Sales,"Conducted pipeline expansion sprint.","High pressure but we closed several deals.",0.17,0.66,0.20
+2025-11-01,Finance,"Coordinated budget reviews with department heads.","Meetings were productive and smooth.",0.05,0.91,0.02
+2025-11-01,Customer Success,"Reviewed customer onboarding processes.","Onboarding feedback has been positive.",0.10,0.81,0.08
+2025-12-01,Engineering,"Planned next year's tech roadmap.","Excited about upcoming projects.",0.09,0.87,0.05
+2025-12-01,Marketing,"Analyzed early holiday metrics.","Campaign metrics are looking good.",0.11,0.80,0.10
+2025-12-01,HR,"Conducted year-end employee surveys.","Appreciate the anonymous feedback mechanism.",0.05,0.94,0.01
+2025-12-01,Sales,"Finalized year-end sales accounting.","Exhausted by the year-end sales rush.",0.18,0.61,0.26
+2025-12-01,Finance,"Processed end of year payrolls.","Pleased to wrap up the year's ledger.",0.06,0.92,0.03
+2025-12-01,Customer Success,"Resolved client billing issues.","Clearer billing docs would save support time.",0.12,0.79,0.12
+2026-01-01,Engineering,"Conducted post-mortem on site downtime.","Anxious about recurring server instability.",0.13,0.71,0.22
+2026-01-01,Marketing,"Set goals for Q1 campaigns.","Creative blocks are slowing down progress.",0.14,0.69,0.18
+2026-01-01,HR,"Welcomed new employee batch.","Onboarding program is well organized.",0.06,0.92,0.01
+2026-01-01,Sales,"Kicked off Q1 sales campaign.","New sales targets are overly aggressive.",0.21,0.55,0.32
+2026-01-01,Finance,"Drafted Q1 financial estimates.","Accounting pipelines are working well.",0.07,0.88,0.04
+2026-01-01,Customer Success,"Analyzed customer satisfaction scores.","Need more staff to support chat support.",0.17,0.63,0.26
+2026-02-01,Engineering,"Upgraded core security certificates.","Security upgrades completed successfully.",0.09,0.85,0.06
+2026-02-01,Marketing,"Reviewed social media channels engagement.","Channel growth is steady and positive.",0.10,0.82,0.07
+2026-02-01,HR,"Reviewed training budget requests.","Happy that training courses are funded.",0.05,0.95,0.00
+2026-02-01,Sales,"Coordinated outreach with regional teams.","Outreach efforts are showing potential.",0.16,0.67,0.18
+2026-02-01,Finance,"Audited taxation schedules.","Tax files are prepared and checked.",0.06,0.90,0.03
+2026-02-01,Customer Success,"Created customer help center guides.","Help center guides reduced minor tickets.",0.09,0.85,0.05
+2026-03-01,Engineering,"Implemented unit testing automation.","Automated tests save manual effort.",0.08,0.89,0.04
+2026-03-01,Marketing,"Reviewed spring campaign materials.","Looking forward to spring campaign launch.",0.10,0.81,0.08
+2026-03-01,HR,"Updated employee handbook guidelines.","Guidelines are clearer and updated.",0.06,0.93,0.01
+2026-03-01,Sales,"Reviewed mid-quarter targets gap.","Striving hard to close the sales gap.",0.15,0.70,0.16
+2026-03-01,Finance,"Allocated capital investment budgets.","Finance allocation was fair and objective.",0.05,0.91,0.02
+2026-03-01,Customer Success,"Standardized email template structures.","Templates help resolve issues faster.",0.08,0.86,0.04
+2026-04-01,Engineering,"Refactored legacy query modules.","Queries are faster now. Much better.",0.07,0.91,0.02
+2026-04-01,Marketing,"Launched spring social campaigns.","Campaign responses are highly encouraging.",0.09,0.85,0.05
+2026-04-01,HR,"Conducted mental health seminars.","Appreciate the support for mental health.",0.05,0.96,0.00
+2026-04-01,Sales,"Onboarded new client accounts.","Glad to close several key enterprise clients.",0.12,0.78,0.10
+2026-04-01,Finance,"Reviewed audit reports draft.","Draft is looking complete and clear.",0.05,0.93,0.01
+2026-04-01,Customer Success,"Onboarded enterprise client success teams.","Onboarding was swift and comprehensive.",0.08,0.89,0.04
+2026-05-01,Engineering,"Discussed microservices migration plan.","Excited to design distributed services.",0.08,0.90,0.05
+2026-05-01,Marketing,"Analyzed spring campaign conversions.","Conversions met Q2 expectations.",0.09,0.84,0.07
+2026-05-01,HR,"Planned summer internship program.","Intern program will bring good talent.",0.06,0.94,0.01
+2026-05-01,Sales,"Reviewed pipeline velocity improvements.","Pipeline speed has improved.",0.13,0.75,0.12
+2026-05-01,Finance,"Reviewed annual projections forecasts.","Projections are showing consistent growth.",0.05,0.92,0.02
+2026-05-01,Customer Success,"Addressed high resolution times.","Stressed due to delayed escalation replies.",0.14,0.68,0.20
+2026-06-01,Engineering,"Reviewed architectural design reviews.","Product designs are solid and scalability-focused.",0.06,0.92,0.03
+2026-06-01,Marketing,"Prepared next half planning.","Brainstorming sessions were very creative.",0.08,0.87,0.05
+2026-06-01,HR,"Finalized annual increments tables.","Happy with regular increments review.",0.05,0.95,0.00
+2026-06-01,Sales,"Conducted sales strategy workshop.","Strategy workshop brought alignment.",0.11,0.80,0.08
+2026-06-01,Finance,"Finalized half yearly budget files.","Budget ledger is locked and uploaded.",0.05,0.94,0.02
+2026-06-01,Customer Success,"Conducted client feedback surveys.","Feedback shows positive scores.",0.07,0.90,0.03
